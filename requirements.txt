@@ -1,0 +1,8 @@
+dash
+folium
+pandas
+plotly
+python-dotenv
+requests
+seaborn
+stravalib
