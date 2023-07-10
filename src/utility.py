@@ -169,7 +169,7 @@ def PrintLatestActivity(client, data):
             activity["start_date"]
         ).strftime("%d.%m.%Y %H:%M:%S Uhr"),
         "duration": str("%.1f" % (activity["moving_time"] / 60)) + " min",
-        "mileage": str(activity["distance"] / 1000) + " km",
+        "mileage": str("%.1f" % (activity["distance"] / 1000)) + " km",
         "avgHR": str("%d" % activity["average_heartrate"]) + " bpm",
         "kcal": str("%d" % activity["calories"]),
     }

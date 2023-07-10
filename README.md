@@ -1,15 +1,19 @@
-# Strava data analysis related code
+# Strava data analysis
 
-This repo contains the code discussed in my blog: [Accessing user data via the Strava API using stravalib](https://medium.com/@mandieq/accessing-user-data-via-the-strava-api-using-stravalib-d5bee7fdde17)
+This repo contains a Jupyter Notebook to retrieve workout and athlete data from Strava using the stravalib python library. Some sample post-processing is done here and some plots are generated (e.g. mileage per shoe, distance per sports, bike power distribution).
 
->Interested in getting to your data from the Strava API? In this blog I walk through the process for accessing Strava user data using the stravalib python library;  followed by some preliminary analysis using the pandas and seaborn libraries.
+> The contents here are based on [this medium blog post by @mandieq](https://medium.com/@mandieq/accessing-user-data-via-the-strava-api-using-stravalib-d5bee7fdde17) and her [github repo](https://github.com/mandieq/strava_related).
 
-## Some sample output
+## Sample plots
 
-Data overview using seaborn pairgrid:
+Mileage per running shoe model:
 
-![pairgrid](images/pairgrid.png)
+![pairgrid](images/mileage_per_shoe_example.png)
 
-View of activity distance as split out by type and day of the week:
+Distance per sports:
 
-![by_day](images/activity_day.png)
+![by_day](images/distance_per_sport_example.png)
+
+Bike power distribution overall:
+
+![by_day](images/power_distribution_overall_example.png)
